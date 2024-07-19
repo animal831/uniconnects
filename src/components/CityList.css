@@ -1,0 +1,32 @@
+.city-list-container {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    max-width: 800px; /* Adjust container width as needed */
+    margin: 0 auto; /* Center align container horizontally */
+    padding: 20px; /* Padding around the container */
+  }
+  
+  .home-heading {
+    font-size: 45px; /* Adjust font size as needed */
+    text-align:center; /* Center align heading */
+    margin-bottom: 25px; /* Add spacing between heading and content */
+  }
+  
+  .city-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* Gap between items */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center items vertically */
+    margin-left: 400px; /* Leave 400px space from the left edge */
+  }
+  
+  .city-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  

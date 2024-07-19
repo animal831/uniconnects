@@ -1,0 +1,26 @@
+{
+  "name": "my-extension",
+  "displayName": "My Extension",
+  "description": "A simple VS Code extension",
+  "version": "0.0.1",
+  "publisher": "your-publisher-name",
+  "main": "./out/vscode-extension.js",
+  "engines": {
+   "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.sayHello"
+  ],
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "compile": "tsc -watch -p .",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.91.0",
+    "typescript": "^4.4.3"
+  }
+}

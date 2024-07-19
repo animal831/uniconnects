@@ -1,0 +1,42 @@
+.city-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align content */
+    margin-left: 400px; /* Left margin of 400px */
+  }
+  
+  .city-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Darken text color for readability */
+  }
+  
+  .options-list {
+    display: flex; /* Display options in a flex container */
+    flex-wrap: wrap; /* Allow options to wrap to the next line */
+    justify-content: center; /* Center align items horizontally */
+    gap: 10px; /* Adjust space between options */
+    margin-top: 10px; /* Add top margin for spacing */
+    padding: 0;
+    list-style: none; /* Remove default list styling */
+  }
+  
+  .option-item {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 10px 20px; /* Padding around each option */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .option-item:hover {
+    background-color: #e0e0e0; /* Darker background color on hover */
+  }
+  
+  .option-link {
+    color: #333; /* Darken text color for better contrast */
+    text-decoration: none;
+  }
+  
